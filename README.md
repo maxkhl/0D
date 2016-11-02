@@ -7,7 +7,7 @@ This is my contribution to the GitHub Game Off 2016. 0DBank is a 3D/Isometric ha
 ## First test of the voxel fake-3D graphics. 
 The picture is rendered by drawing multiple layers of a 3D voxel model on a 2D scene. 
 ![0DBank early screenshot](https://raw.githubusercontent.com/maxkhl/0DBank/master/media/screen1.png)
-![0DBank early screenshot](https://raw.githubusercontent.com/maxkhl/0DBank/master/media/screen2.png)
+![Visualization of the drawing method. Every vertical layer is getting offset by a bit to produce a 3-dimensional image](https://raw.githubusercontent.com/maxkhl/0DBank/master/media/screen2.png)
 
 
 ...
