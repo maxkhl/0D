@@ -32,7 +32,7 @@ namespace ODBank.Scenes
             this.Block.Play(true, "Bling", 20);*/
 
 
-            BinaryReader reader = new BinaryReader(new FileStream(@"C:\Users\köhler\Desktop\Tree1.vox", FileMode.Open));
+            BinaryReader reader = new BinaryReader(new FileStream(@"Content\Tree1.vox", FileMode.Open));
 
             var allBytes = reader.ReadBytes((int)reader.BaseStream.Length);
             var voxContent = GameObjects.VoxObject.LoadVoxContent(this.Game, "Tree", allBytes);
@@ -51,7 +51,7 @@ namespace ODBank.Scenes
             }
 
 
-            reader = new BinaryReader(new FileStream(@"C:\Users\köhler\Desktop\Cloud1.vox", FileMode.Open));
+            reader = new BinaryReader(new FileStream(@"Content\Cloud1.vox", FileMode.Open));
 
             allBytes = reader.ReadBytes((int)reader.BaseStream.Length);
             var CloudVoxContent = GameObjects.VoxObject.LoadVoxContent(this.Game, "Cloud", allBytes);
